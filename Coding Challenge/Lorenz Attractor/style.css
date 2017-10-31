@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {text-align: center; font-family: Raleway;
+  width: 100vw;
+  /*height: 100vh;*/
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-size: 100% 100%;
+}
+/*#Canvas {}*/
+h3 {margin-left: 0; margin-right: 0; margin-top: 10px; padding-left: 0; padding-right: 0;}
+button {margin: 5px;
+  border-radius: 4px;
+  background: #faf9f9;}
+
+#options {
+  margin: 10px;
+  padding: 5px;
+  width: calc(100% - 30px);
+  background: rgba(229,	229,	229, 0.5);
+}
+
+/*w3schools slider*/
+#slidecontainer {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); padding: 5px;
+    width: calc(100% - 10px);
+    border-radius: 4px;
+    /*-webkit-box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 20px -10px rgba(0,0,0,0.75);*/
+    -webkit-box-shadow: 0px 0px 59px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 59px -13px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 59px -13px rgba(0,0,0,0.75);
+  }
+
+.slider {
+    -webkit-appearance: none;
+    width: calc(100% - 4px);
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(184, 179, 228, 0.62);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.41);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.41);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.41);
+  }
+
+.slider:hover {
+    opacity: 1;}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #faf9f9;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+  }
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #faf9f9;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.41);
+  }
+/*w3schools slider*/
